@@ -99,7 +99,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <framework src="CoreLocation.framework" />
 
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-            <string>This app requires background location tracking</string>
+            <string>Cette application necessite d'avoir accès à vos données de localisation</string>
         </config-file>
 
     </platform>
